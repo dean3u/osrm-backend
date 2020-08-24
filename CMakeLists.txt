@@ -31,7 +31,7 @@ option(ENABLE_FUZZING "Fuzz testing using LLVM's libFuzzer" OFF)
 option(ENABLE_GOLD_LINKER "Use GNU gold linker if available" ON)
 option(ENABLE_NODE_BINDINGS "Build NodeJs bindings" OFF)
 option(ENABLE_GLIBC_WORKAROUND "Workaround GLIBC symbol exports" OFF)
-option(ENABLE_SWIG_PYTHON_BINDINGS "Use SWIG to compile Python bindings" ON)
+option(ENABLE_SWIG_PYTHON_BINDINGS "Use SWIG to compile Python bindings" OFF)
 option(ENABLE_SWIG_JNI_BINDINGS "Use SWIG to compile Java bindings" ON)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")

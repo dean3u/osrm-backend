@@ -21,7 +21,7 @@
 
 %pragma(java) jniclasscode=%{
     static {
-        System.loadLibrary("libswig_jni_bindings.so");
+        System.loadLibrary("swig_jni_bindings");
     }
 %}
 
